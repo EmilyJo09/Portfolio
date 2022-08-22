@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!-- Emily Johansen Portfolio - Geog 778 - August 21, 2022 -->
+
+<html lang="en">
+    
+    <head>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118889675-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-118889675-1');
+        </script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Emily Johansen's Portfolio">
+        <meta name="keywords" content="emily, johansen, gis, sql, data, database, project, cartography, portfolio, map, maps">
+        <meta name="author" content="Emily Johansen">
+
+        <title>Emily Johansen</title>
+        
+        <link rel="icon" href="assets/buttonPaw.png">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel='stylesheet' href='css/style.css'/>
+
+    </head>
+    
+    <body>
+
+        <!--NAVBAR-->
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand js-scroll" href="#home">Emily Johansen</a>
+                </div>
+                <!--Creating the top buttons -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse.in" class="js-scroll">About</a></li>
+                    <li><a href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse.in" class="js-scroll">Portfolio</a></li>
+                    <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in" class="js-scroll">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav> 
+
+        <!--HOME-->
+        <!--Main Pop up page-->
+        <div class="jumbotron jumbotron-fluid" id="home">
+            <div class="container-fluid">
+                <br>
+                <h1 class="shadow">Emily Johansen</h1>
+                <h3 class="shadow"> Program and Policy Analyst Advanced Lead Worker <br> Wisconsin Department of Transportation <br> Northwest Region </h3>
+                <br>
+                <a href="#about" class="js-scroll"><img id="scroll-button" alt="" src="assets/down.svg"></a>
+            </div>
+        </div>
+
+        <!--ABOUT-->
+
+        <div id="about" class="container-fluid">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">
+                    
+                    <h2 id="about-buffer" class="abouth"> Who am I?</h2> 
+                    
+                    <p>My name is Emily Johansen. I live in Wisconsin with my boyfriend, Rob, and our dog, Pepper. We have fostered over a dozen dogs in the last three years through <a href="https://straysoulsrescue.com/" target="_blank">Stray Souls Animal Rescue</a>. We enjoy learning new recipes to cook together, handing out with family, and golfing with friends. </p>
+                    
+                    <h2 class="abouth">Education</h2>
+                    
+                    <p>I went to the University of Wisconsin - La Crosse to earn my undergraduate degree in <a href="https://www.uwlax.edu/geography-and-earth-science/" target="_blank">Geography</a> with a concentration in GIS and a minor in Spanish. During my time there I worked as a Graphic Designer in the Center for Leadership, Involvement, and Graphics. I also held two internships, one as a GIS Intern for USGS, as well as at the City of Onalaska as an intern for the City Planner. A few years after graduation, I decided to go back to school. Recently I graduated from the University of Wisconsin - Madison's Masters of  <a href="https://geography.wisc.edu/gis/onlinemasters/" target="_blank">Web Map Planning and GIS</a> program.<br></p>
+                    
+                    <h2 class="abouth">Work</h2>
+
+                    <p>In 2016, I became a Land Use Specialist in the La Crosse County Zoning, Planning, and Land Information office. I spent 5 years in that office, meeting great friends, connections that got me into fostering dogs, and even my boyfriend there. Once covid hit, I decided it was time to move on to a new career. Now I work with the Wisconsin Department of Transportation's Technology Services Section in the Northwest Region. I have been in this position for a year and a half and am excited to see where it takes me!</p>
+                    
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <!--PORTFOLIO-->
+        <!--Thumb of each map with link to each within the thumb-->
+
+        <div id = "portfolio" class="container-fluid">
+            <h1 class="title">Portfolio</h1>
+            <div id="port-row-1" class="container-fluid text-center">
+                <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1">
+                    <a href="https://api.mapbox.com/styles/v1/emilyjo/ck2l5lr7s54b31cmulkyomhxd.html?fresh=true&title=view&access_token=pk.eyJ1IjoiZW1pbHlqbyIsImEiOiJjazA2MDI4MjEwNWM2M3BxYm42N29rMDNoIn0.TCOSlqzEBB-uE8PDYUq4OA#12.7/50.105160/9.908958/0 " target="_blank">
+                        <img id="hogan" class="thumb" alt="hogan's heroes map" src="assets/hogan.png">
+                    </a>
+                </div>
+                <div id="caption-1"class="hidden-xs hidden-sm col-md-2 col-md-offset-0"></div>
+                <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+                    <a href="https://grubeg.github.io/Geog575_FinalProject/" target="_blank">
+                        <img id="nps-thumb" class="thumb" alt="National Park Map" src="assets/nps_thumb.png">
+                    </a>
+                </div>
+            </div>
+            <div id="port-row-2" class="container-fluid text-center">
+                <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1">
+                    <a href="assets/BikeRoute.png" target="_blank">
+                        <img id="BikeRoute" class="thumb" alt="100 mile bike route" src="assets/BikeRoute.png">
+                    </a>
+                </div>
+                <div id="caption-2"class="hidden-xs hidden-sm col-md-2 col-md-offset-0"></div>
+                <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+                    <a href="https://danieleaster.github.io/575-final/" target="_blank">
+                        <img id="cwd-thumb" class="thumb" alt="Chronic Wasting Disease Map" src="assets/CWD_thumb.png">
+                    </a>
+                </div>
+            </div>
+            <div id="port-row-3" class="container-fluid text-center">
+                <div class="center">
+                    <a href="https://experience.arcgis.com/experience/b3cc2b146b5b4ab2ae4f2baf086cd999/" target="_blank">
+                        <img id="dog-thumb" class="thumb" alt="A Rescue Dogs Journey Map" src="assets/dog_thumb.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact Information-->
+
+        <div id = "contact" class = "container-fluid">
+            <h1 class="title">Contact</h1>
+            <div id="contact-row" class = "row">
+                <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2 text-center">
+                    <img class="other-pic" src="assets/self.png">        
+                </div>
+                <div class="col-md-3 col-md-offset-1 desk">
+                    <div id="text-box-web">
+                        <span id="spanning">
+                            <p>Emily Johansen</p>
+                            <p>Program and Policy Analyst Adv. Lead Worker</p>
+                            <p>WisDOT Northwest Region</p>
+                            <p>ejohansen0909@gmail.com</p>
+
+                            <a href="https://www.linkedin.com/in/emily-johansen-4a549968/" target="_blank"><img class="tiny" alt="Linkedin" src="assets/linkedin_thumb.svg"/></a>
+                            <a href="https://twitter.com/EmilyCartograp1" target="_blank"><img class="tiny" alt="Twitter" src="assets/twitter_thumb.svg"/></a>
+                            <a href="assets/resume_ejohansen.pdf" target="_blank"><img class="tiny" alt="Twitter" src="assets/resumeicon.png"/></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 div-only-mobile">
+                    <div id="text-box-mobile">
+                        <span id="spanning">
+                            <p>Emily Johansen</p>
+                            <p>Program and Policy Analyst Adv. Lead Worker</p>
+                            <p>WisDOT Northwest Region</p>
+                            <p>ejohansen0909@gmail.com</p>
+                            <a href="https://www.linkedin.com/in/emily-johansen-4a549968/" target="_blank"><img class="tiny" alt="Linkedin" src="assets/linkedin_thumb.svg"></a>
+                            <a href="https://twitter.com/EmilyCartograp1" target="_blank"><img class="tiny" alt="Twitter" src="assets/twitter_thumb.svg"></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--SCRIPTS-->
+
+        <script src="lib/jquery-3.2.1.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+    </body>
+
+</html>
